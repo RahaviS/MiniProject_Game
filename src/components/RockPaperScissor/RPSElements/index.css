@@ -1,0 +1,12 @@
+.rps-icons {
+  width: 180px;
+  cursor: pointer;
+  outline: none;
+}
+.rps-element {
+  width: 50%;
+}
+.image-button {
+  border: 0;
+  background-color: transparent;
+}

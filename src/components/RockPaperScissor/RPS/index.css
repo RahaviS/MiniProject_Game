@@ -1,0 +1,135 @@
+.rps-bg-container {
+  width: 100%;
+  background-color: #223a5f;
+  min-height: 100%;
+  max-height: 1110px;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.rps-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.rps-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rps-backIcon-container {
+  display: flex;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+}
+.rps-back-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+.rps-heading {
+  font-size: 34px;
+  text-align: center;
+}
+.rps-home-image {
+  width: 220px;
+}
+.rps-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rps-rules-container {
+  align-self: center;
+  width: 80%;
+}
+.rps-rules-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.rps-elements-heading {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.rps-rules-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.rps-rule-item {
+  padding: 10px;
+  font-family: 'Bree Serif';
+}
+.rules-list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rps-rules-button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 120px;
+  height: 35px;
+  align-self: flex-end;
+}
+span {
+  color: rgb(222, 222, 28);
+  font-weight: 600;
+}
+.rps-start-button {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 130px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.rps-elements-container {
+  list-style-type: none;
+  padding-left: 0;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rps-popup-container {
+  display: flex;
+  align-items: center;
+}
+.rps-modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 12px;
+}
+.trigger-button {
+  align-self: flex-end;
+  background: transparent;
+  border: 0;
+}
+.rps-link-item {
+  text-decoration: none;
+}
+.text-container {
+  width: 100%;
+}
