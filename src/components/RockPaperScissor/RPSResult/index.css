@@ -1,0 +1,141 @@
+.rps-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.result-top-section {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.results-view-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  width: 40px;
+  font-weight: 500;
+}
+.rps-score-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.result-image {
+  width: 110px;
+  height: 140px;
+  margin: 20px;
+}
+.score-section {
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  height: 120px;
+  width: 140px;
+  color: #223a5f;
+  text-align: center;
+}
+.rps-score-text {
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  font-size: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.score {
+  font-weight: 700;
+  font-size: 26px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.mid-section {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.player-text {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+}
+.status-section {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choice-image {
+  width: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.smiley-icon {
+  width: 30px;
+}
+.message {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 30px;
+}
+.rps-play-again-button {
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .result-top-section {
+    width: 100%;
+  }
+  .mid-section {
+    width: 90%;
+  }
+  .status-section {
+    width: 100%;
+  }
+  .choice-image {
+    width: 120px;
+  }
+  .message {
+    font-size: 25px;
+  }
+  .score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .result-top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .results-view-heading {
+    width: 80%;
+    text-align: center;
+    word-spacing: 30px;
+  }
+}

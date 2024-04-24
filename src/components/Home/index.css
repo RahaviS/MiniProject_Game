@@ -1,0 +1,59 @@
+.welcome-page {
+  background-image: linear-gradient(#834d9b, #d04ed6);
+  padding: 40px;
+}
+.title {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.game-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.game-list-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 554px;
+  height: 280px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-image {
+  width: 220px;
+  height: 220px;
+}
+.cf-img {
+  width: 300px;
+}
+.each-game-title {
+  font-family: 'Bree Serif';
+  color: #334155;
+  font-size: 24px;
+  font-weight: 400;
+}
+.link-item {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .game-list-item {
+    width: 340px;
+    height: 250px;
+  }
+  .home-image {
+    width: 150px;
+    height: 180px;
+  }
+  .cf-img {
+    width: 200px;
+  }
+}
